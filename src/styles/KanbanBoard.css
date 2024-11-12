@@ -1,0 +1,24 @@
+.kanban-board {
+    background: #f4f5f8;
+    min-height: 100vh;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 20px 20px;
+  }
+  
+  .loading, .error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .error {
+    color: #ff0000;
+  }

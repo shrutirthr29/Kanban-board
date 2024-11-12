@@ -1,0 +1,50 @@
+.column {
+    min-width: 0;
+  }
+  
+  .column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    margin-bottom: 16px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .status-icon, .priority-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .user-avatar {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #e6e7eb;
+  }
+  
+  .title {
+    font-weight: 500;
+    color: #373737;
+  }
+  
+  .count {
+    color: #787486;
+  }
+  
+  .header-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .action-icon {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    opacity: 0.6;
+  }
